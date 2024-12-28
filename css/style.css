@@ -42,10 +42,12 @@ a{
 .nav_bar a:active{
     text-decoration: underline;
 }
-.nav_bar_contacts a{
+.nav_bar_contacts{
+    font-style: normal;
+}
+.nav_bar_contacts_link{
     color: #434455;
     line-height: 1.5;
-    font-style: normal;
 }
 .nav_bar_contacts a:hover,
 .nav_bar_contacts a:focus{
