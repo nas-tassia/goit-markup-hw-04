@@ -1,0 +1,118 @@
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+    font-size: normal;
+    line-height: 1.5;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2E2F42;
+    text-transform: uppercase;
+    line-height: 1.16;
+}
+.logo_part{
+    color: #4D5AE5;
+}
+.nav_bar a{
+    color: #2E2F42;
+    line-height: 1.5;
+}
+.nav_bar a:hover{
+    color: #404BBF;
+}
+.nav_bar a:active{
+    text-decoration: underline;
+}
+.nav_bar_contacts a{
+    color: #434455;
+    line-height: 1.5;
+}
+.nav_bar_contacts a:hover{
+    color: #404BBF;
+}
+.banner{
+    background-color: #2E2F42;
+}
+.banner_title{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+}
+.banner button{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    border:none;
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner button:hover{
+    background-color: #404BBF;
+    cursor: pointer;
+}
+.technology_title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2E2F42;
+    line-height: 1.11;
+}
+.team{
+    background-color: #F4F4FD;
+}
+.team_title{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2E2F42;
+    line-height: 1.11;
+}
+.technology_list h3{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.team_list li{
+    background-color: #FFFFFF;
+}
+.team_list h3{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.2;
+}
+.portfolio_title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #2E2F42;
+    line-height: 1.11;
+}
+.portfolio_examples h3{
+    color: #2E2F42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+
+}
+.logo_part_end{
+    color: #F4F4FD;
+}
