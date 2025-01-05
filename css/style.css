@@ -43,18 +43,20 @@ img {
 section{
     padding: 120px 0;
 }
-header{
+.header{
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc
 }
-header .container{
+.header .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-nav{
+.navigation{
     display: flex;
     flex-direction: row;
     gap: 76px;
+    align-items: center;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -72,7 +74,6 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 40px;
-    align-items: center;
 }
 .nav_bar a{
     font-weight: 500;
@@ -91,7 +92,7 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 40px;
-    align-items: center;
+
 }
 .nav_bar_contacts_link{
     color: #434455;
@@ -103,6 +104,7 @@ nav{
 }
 .banner{
     background-color: #2E2F42;
+    padding: 188px 0;
 }
 .banner_title{
     color:#FFFFFF;
@@ -111,7 +113,8 @@ nav{
     text-align: center;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 .banner_btn{
     display: block;
@@ -126,9 +129,8 @@ nav{
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
-    width: 233px;
-    height: 56px;
     margin: 0 auto;
+    min-width: 169px
 }
 .banner_btn:hover,
 .banner_btn:focus{
@@ -136,6 +138,7 @@ nav{
     cursor: pointer;
 }
 .technology_title{
+    display: none;
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
@@ -149,7 +152,9 @@ nav{
     flex-direction: row;
     gap: 24px;
 }
-
+.technology_list_item{
+    width: calc((100% - 72px) / 4);
+}
 .technology_list_title{
     margin-bottom: 8px;
 }
@@ -179,22 +184,30 @@ nav{
     gap: 24px;
     justify-content: center;
 }
-.team_list li{
+.team_list_card{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
-.team_list h3{
+.team_list_card img{
+    width: 100%;
+}
+.card_info{
+    padding: 32px 0;
+}
+.card_info_title{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 32px;
+    text-align: center; 
     margin-bottom: 8px;
 }
-.team_list p{
+
+.card_info_text{
     text-align: center;
-    margin-bottom: 32px;
 }
 .portfolio_title{
     text-transform: capitalize;
@@ -209,20 +222,24 @@ nav{
 .portfolio_examples{
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.portfolio_examples li{
-    flex-basis: calc((100% - 52px)/3);
+.portfolio_examples_card{
+    width: calc((100% - 48px) / 3);
+}
+.portfolio_examples_card img{
+width: 100%;
+}
+.card_content{
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
-.portfolio_examples li img{
-   width: 100%;
-   margin-bottom: 32px;
-}
-.portfolio_examples h3{
+.card_content_title{
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
@@ -231,7 +248,7 @@ nav{
     padding-left: 16px;
     margin-bottom: 8px;
 }
-.portfolio_examples p{
+.card_content_text{
     padding-left: 16px;
     margin-bottom: 32px;
 }
@@ -241,17 +258,14 @@ nav{
     color: #F4F4FD;
 
 }
-.footer_container{
-    display: flex;
-    flex-direction: column;
-    gap: 17.5px;
-    justify-content: flex-start;
-    
+.footer .logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .logo_part_end{
     color: #f4f4fd;
 }
 .footer_txt{
-    width: 264px;
+    max-width: 264px
 }
 
