@@ -44,7 +44,7 @@ section{
     padding: 120px 0;
 }
 .header{
-    padding: 24px 0;
+    /* padding: 24px 0; */
     border-bottom: 1px solid #e7e9fc
 }
 .header .container{
@@ -55,8 +55,11 @@ section{
 .navigation{
     display: flex;
     flex-direction: row;
-    gap: 76px;
+    /* gap: 76px; */
     align-items: center;
+}
+.navigation .logo{
+    margin-right: 76px;
 }
 .logo{
     font-family: "Raleway", sans-serif;
@@ -74,6 +77,9 @@ section{
     display: flex;
     flex-direction: row;
     gap: 40px;
+}
+.nav_bar li{
+    padding: 24px 0;
 }
 .nav_bar a{
     font-weight: 500;
@@ -94,6 +100,10 @@ section{
     gap: 40px;
 
 }
+.nav_bar_contacts ul li{
+    padding: 24px 0;
+}
+
 .nav_bar_contacts_link{
     color: #434455;
     line-height: 1.5;
@@ -138,14 +148,14 @@ section{
     cursor: pointer;
 }
 .technology_title{
-    display: none;
+    visibility: hidden;
+    /* display: none; */
     text-align: center;
     text-transform: capitalize;
     font-weight: bold;
     font-size: 36px;
     color: #2E2F42;
     line-height: 1.11;
-    margin-bottom: 72px;
 }
 .technology_list{
     display: flex;
