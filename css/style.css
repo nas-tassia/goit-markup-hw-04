@@ -83,7 +83,7 @@ section{
 .nav_bar_link{
     position: relative;
     font-weight: 500;
-    color: #2E2F42;
+    color: #404bbf;
     line-height: 1.5;
     transition: color 250ms ease-in-out;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -138,8 +138,8 @@ section{
     height: 4px;
     background-color: #404bbf;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -1px;
+    left: 0;
 }
 .nav_bar_contacts_link:hover::after{
     display: block;
