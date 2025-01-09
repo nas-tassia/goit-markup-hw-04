@@ -318,11 +318,11 @@ section{
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon_link:hover,
 .icon_link:focus{
-    background-color: #31d0aa;
+    background-color: #404bbf;;
 } 
 .icon_icon{
     fill: #f4f4fd;
@@ -476,5 +476,9 @@ width: 100%;
 }
 .smm .card_icons_list{
     gap: 16px;
+}
+.smm .icon_link:hover,
+.smm .icon_link:focus{
+    background-color: #31d0aa;
 }
 
