@@ -88,8 +88,8 @@ section{
     transition: color 250ms ease-in-out;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav_bar_link::after{
-    display: none;
+.nav_bar_link_1::after{
+    /* display: none; */
     content: "";
     border-radius: 2px;
     width: 100%;
@@ -100,7 +100,7 @@ section{
     left: 0;
 }
 .nav_bar_link:hover::after{
-    display: block;
+    /* display: block; */
 }
 .nav_bar_link:hover,
 .nav_bar_link:focus{
