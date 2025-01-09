@@ -88,10 +88,10 @@ section{
     transition: color 250ms ease-in-out;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav_bar_link_1{
+.nav_bar_link_first{
     color: #404bbf;
 }
-.nav_bar_link_1::after{
+.nav_bar_link_first::after{
     /* display: none; */
     content: "";
     border-radius: 2px;
