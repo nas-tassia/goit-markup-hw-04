@@ -222,7 +222,6 @@ section{
     display: flex;
     flex-direction: row;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .technology_list_item{
     width: calc((100% - 72px) / 4);
