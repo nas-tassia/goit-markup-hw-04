@@ -159,6 +159,7 @@ section{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    margin: 0 auto;
 
 }
 
@@ -435,12 +436,7 @@ width: 100%;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-left: 16px;
     margin-bottom: 8px;
-}
-.card_content_text{
-    padding-left: 16px;
-    margin-bottom: 32px;
 }
 .footer{
     padding: 100px 0;
